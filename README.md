@@ -48,5 +48,19 @@ Python scripting is used to automate the compilation and simulation process, mak
 ```bash
 python run_cpu.py
 
+This script will:
+
+Compile all SystemVerilog/Verilog files
+
+Run the simulation
+
+Generate cpu_wave.vcd
+
+### View Waveform
+
+Once the simulation finishes:
+
+gtkwave cpu_wave.vcd
+
 
 
